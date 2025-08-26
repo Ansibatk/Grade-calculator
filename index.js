@@ -1,5 +1,5 @@
 let score= 85;
-let name="Athira";
+let studentName="Athira";
 function calculateGrade(score)
 {
     if (score >= 90) 
@@ -24,11 +24,11 @@ function calculateGrade(score)
     }
 
 }
-function displayResult(name,score)
+function displayResult(studentName,score)
 {
-    console.log("Student: "+name)
+    console.log("Student: "+studentName)
     console.log("Score: "+score)
     calculateGrade(score)
 }
 
-displayResult(name,score);
+displayResult(studentName,score);
